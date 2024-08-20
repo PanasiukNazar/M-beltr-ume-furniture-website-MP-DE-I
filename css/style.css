@@ -267,6 +267,11 @@ a.more {
     padding-bottom: 50px;
     cursor: pointer;
 }
+
+.product-section .product-item img {
+    height: 250px;
+    object-fit: cover;
+}
 .product-section .product-item .product-thumbnail {
     margin-bottom: 30px;
     position: relative;
@@ -539,7 +544,9 @@ a.more {
     margin-bottom: 20px;
 }
 .testimonial-slider-wrap .item .testimonial-block .author-info .author-pic img {
-    max-width: 80px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
     border-radius: 50%;
 }
 .testimonial-slider-wrap .item .testimonial-block .author-info h3 {
