@@ -160,6 +160,11 @@ a.more {
 .hero .hero-img-wrap {
     position: relative;
 }
+@media (max-width: 992px) {
+    #hero-img-wrap {
+        display: none;
+    }
+}
 .hero .hero-img-wrap img {
     position: relative;
     top: 0px;
