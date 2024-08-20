@@ -752,6 +752,12 @@ a.more {
 .footer-section .sofa-img img {
     max-width: 380px;
 }
+
+@media (max-width: 992px) {
+    .footer-section .sofa-img img {
+        display: none;
+    }
+}
 .footer-section .links-wrap {
     margin-top: 0px;
 }
